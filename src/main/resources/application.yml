@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-security-demo
+
+logging:
+  level:
+    com.example.springbootsecuritydemo: DEBUG
+    org.springframework.security: DEBUG
