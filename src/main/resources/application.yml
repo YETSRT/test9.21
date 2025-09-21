@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: springboot-security-demo
+  main:
+    allow-circular-references: true
 
 logging:
   level:
